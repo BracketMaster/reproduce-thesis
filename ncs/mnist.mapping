@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="Parameter193_reshape1" out_port_id="Parameter193_reshape1"/>
+		<IR name="Times212/1_port_transpose353_const" out_port_id="1" id="14"/>
+	</map>
+	<map>
+		<framework name="Input3" out_port_id="Input3"/>
+		<IR name="Input3" out_port_id="0" id="0"/>
+	</map>
+	<map>
+		<framework name="Pooling160_Output_0" out_port_id="Pooling160_Output_0"/>
+		<IR name="Pooling160" out_port_id="1" id="12"/>
+	</map>
+	<map>
+		<framework name="Parameter87" out_port_id="Parameter87"/>
+		<IR name="onnx_initializer_node_Parameter87/Output_0/Data__const" out_port_id="1" id="7"/>
+	</map>
+	<map>
+		<framework name="Pooling160_Output_0_reshape0_shape" out_port_id="Pooling160_Output_0_reshape0_shape"/>
+		<IR name="Times212_reshape1/MinusOne/shapes_concat" out_port_id="2" id="19"/>
+	</map>
+	<map>
+		<framework name="Convolution28_Output_0" out_port_id="Convolution28_Output_0"/>
+		<IR name="Convolution28" out_port_id="2" id="2"/>
+	</map>
+	<map>
+		<framework name="Parameter5" out_port_id="Parameter5"/>
+		<IR name="onnx_initializer_node_Parameter5/Output_0/Data__const" out_port_id="1" id="1"/>
+	</map>
+	<map>
+		<framework name="Pooling66_Output_0" out_port_id="Pooling66_Output_0"/>
+		<IR name="Pooling66" out_port_id="1" id="6"/>
+	</map>
+	<map>
+		<framework name="Convolution110_Output_0" out_port_id="Convolution110_Output_0"/>
+		<IR name="Convolution110" out_port_id="2" id="8"/>
+	</map>
+	<map>
+		<framework name="Pooling160_Output_0_reshape0" out_port_id="Pooling160_Output_0_reshape0"/>
+		<IR name="Times212_reshape0" out_port_id="2" id="20"/>
+	</map>
+	<map>
+		<framework name="ReLU114_Output_0" out_port_id="ReLU114_Output_0"/>
+		<IR name="ReLU114" out_port_id="1" id="11"/>
+	</map>
+	<map>
+		<framework name="Times212_Output_0" out_port_id="Times212_Output_0"/>
+		<IR name="Times212" out_port_id="2" id="21"/>
+	</map>
+	<map>
+		<framework name="Plus112_Output_0" out_port_id="Plus112_Output_0"/>
+		<IR name="Plus112" out_port_id="2" id="10"/>
+	</map>
+	<map>
+		<framework name="Parameter194" out_port_id="Parameter194"/>
+		<IR name="onnx_initializer_node_Parameter194/Output_0/Data__const" out_port_id="1" id="22"/>
+	</map>
+	<map>
+		<framework name="ReLU32_Output_0" out_port_id="ReLU32_Output_0"/>
+		<IR name="ReLU32" out_port_id="1" id="5"/>
+	</map>
+	<map>
+		<framework name="Plus214_Output_0" out_port_id="Plus214_Output_0"/>
+		<IR name="Plus214_Output_0" out_port_id="2" id="23"/>
+	</map>
+	<map>
+		<framework name="Plus30_Output_0" out_port_id="Plus30_Output_0"/>
+		<IR name="Plus30" out_port_id="2" id="4"/>
+	</map>
+</mapping>
